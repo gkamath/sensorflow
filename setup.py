@@ -10,10 +10,8 @@ tests = [p + '.tests' for p in packages]
 
 setup(name='sensorflow',
       version='0.0.1',
-      description='Voxela Sensorflow API',
-      maintainer='alexov',
-      maintainer_email='alexov@voxela.ai',
-      keywords='voxela',
+      description='Sensorflow API',
+      maintainer='gkamath',
       packages=packages + tests,
       python_requires='>=3.6',
       long_description=(open('README.rst').read() if exists('README.rst')
